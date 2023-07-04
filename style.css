@@ -1,0 +1,200 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 1400px;
+    height: 700px;
+}
+
+.danial-card , 
+.jonathan-card , 
+.jeanette-card , 
+.patrick-card , 
+.kira-card {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* cards */
+
+.danial-card {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: 1 / 1 / 2 / 3;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 19%;
+}
+
+.danial-pd h3 {
+    color: hsl(210, 46%, 95%);
+}
+
+.danial-pd p {
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+}
+
+.danial-t {
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.danial-p {
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+.jonathan-card {
+    background-color: hsl(217, 19%, 35%);
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.jonathan-pd h3 {
+    color: hsl(210, 46%, 95%);
+}
+
+.jonathan-pd p {
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+}
+
+.jonathan-t {
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.jonathan-p {
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+.jeanette-card {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.jeanette-pd h3 {
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette-pd p {
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+}
+
+.jeanette-t {
+    color: hsl(217, 19%, 35%);
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.jeanette-p {
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+
+.patrick-card {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.patrick-pd h3 {
+    color: hsl(210, 46%, 95%);
+}
+
+.patrick-pd p {
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+}
+
+.patrick-t {
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.patrick-p {
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+
+.kira-card {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+.kira-pd h3 {
+    color: hsl(217, 19%, 35%);
+}
+
+.kira-pd p {
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+}
+
+.kira-t {
+    color: hsl(217, 19%, 35%);
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.kira-p {
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+
